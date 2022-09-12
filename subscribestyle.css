@@ -1,0 +1,365 @@
+body{
+    overflow: hidden;
+   
+}
+
+
+
+a:link{
+    color: black;
+    
+    text-decoration: none;
+ }
+
+.transportgate{
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0);
+    
+    
+   
+
+}
+.midealink{
+    position: relative;
+    left: 0%;
+    z-index: 10;
+    top: 220px;
+    font-size: 200px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 80px;  
+    letter-spacing: 2px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    transition: 2s;
+    
+    
+}
+
+li:hover .midealink{
+    position: relative;
+   top: 150px;
+
+    padding: 20px;
+    border-radius: 80px;  
+    transition: 2s;
+    animation: btn 20s ;
+   
+}
+li{
+    list-style: none;
+    margin-top: 140%;
+    padding-top: 10%;
+ 
+    background-color: rgba(47, 112, 196, 0);
+
+}
+
+.whole{
+   
+    margin-top: 0;
+    margin-bottom: 60%;
+}
+
+li .txt{
+
+    position: relative;
+   left: 35%;
+    margin-left: 0;
+    padding: 0;
+    margin-top: 1px;
+    object-fit: cover;
+    top: 150px;
+    color: rgba(30, 223, 223, 0);
+   
+    font-size: 16px;
+   
+    padding: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.5s;
+}
+
+li:hover .txt{
+    color: black;
+    background: rgba(85, 84, 84, 0.1);
+    transition: 5s;
+}
+
+li .click{
+    position: relative;
+    top: 135px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    transition: 2s;
+}
+
+li:hover .click{
+    position: relative;
+    top: -0px;
+    color: rgba(255, 255, 255, 0);
+    transition: 2s;
+}
+
+
+.decoration{
+
+    position: fixed;
+    top: 160px;
+    left: 50px;
+    width: 1px;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    z-index: 1;
+    
+}
+.line1{
+    position: absolute;
+    top: 200px;
+}
+.guide{
+    position: fixed;
+    top: 40px;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 10;
+  }
+  .guide ul{
+      position: relative;
+      padding-left:20px ;
+      padding-right: 10px;
+    
+  }
+  
+  .guide ul li a{
+      color: rgb(117, 117, 117);
+      transition: 1s;
+      background-color: rgb(255, 255, 255);
+      padding-top: 10px;
+      padding-bottom:10px ;
+      object-fit: cover;
+  }
+  
+  .guide ul li a:hover{
+      transition: 2s;
+      padding-left: 30%;
+      color: rgb(153, 190, 190);
+  
+  }
+
+  img{
+    position: fixed;
+    top: -10%;
+    left: 3%;
+    width: 50% ;
+    z-index: 1;
+  }
+  #last{
+    position: relative;
+    color: rgb(0, 0, 0);
+    margin-top: 1px;
+    top: -20%;
+
+  }
+.rect{
+
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+    position:fixed;
+    width: 90%;
+    height: 10%;
+    right: 0;
+ 
+}
+  #rectbottom{
+    top: 90%;  
+  
+  }
+  #recttop{
+      top: 0%;  
+  }
+  #rectleft{
+    height: 5%;
+      top: 30%;  
+  }
+
+  #rectsmall{
+    top: 0%;
+    width: 30%;
+    height: 30%;
+    right: 10%;
+
+  }
+  
+.midpic{
+    position: fixed;
+    left: 22%;
+    width: 60%;
+    top: -10%;
+
+}
+.bird{
+    position: fixed;
+    z-index: 5;
+    right:50%;
+}
+
+
+.cloudtxt{
+    position: fixed;
+    z-index: 10;
+    top: 24%;
+    left: 61%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(134, 134, 134);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web{
+
+    color: black;
+  
+    
+}
+
+
+.webo{
+    padding: 3px 10px 0px 10px; 
+    font-size: 30px;  
+    position: fixed;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    right: 0;
+    position: fixed;
+    top: 2%;
+    border-radius: 50px;
+    color:rgb(70, 58, 58);
+    background-color: rgb(243, 243, 243);
+    z-index: 100; 
+   
+}
+
+.webo:hover{
+    
+    text-decoration: none;
+    background-color: rgba(121, 121, 121, 0.432);
+  
+  
+  }
+
+#c{  
+    
+
+    right: 3% 
+                                                                                                ;
+
+
+}
+
+#b{
+    
+
+    right: 16%;
+}
+
+#a{
+    
+
+
+    right: 25%
+}
+
+.content{
+    display: none;
+}
+
+
+.loader{
+    height: 100%;
+    width:100% ;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  .loader>div{
+    height: 50px;
+    width: 50px;
+    border: 15px solid rgba(121, 121, 121, 0.096);
+    border-top-color: rgba(133, 133, 133, 0.363);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+  
+  }
+  
+  @keyframes spin{
+    0%{transform: rotate(360deg)}
+  }
+  

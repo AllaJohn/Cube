@@ -1,0 +1,329 @@
+
+body{
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  overflow: hidden;
+
+}
+.musictxt img{
+    position: absolute;
+    width: 500px;
+    top: 27%;
+    left: 15%;
+    z-index: 8;
+   
+}
+#rectbottom{
+
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    position:fixed;
+      top: 85%;
+      height: 100%;
+      width: 100%;  
+      left: 0;
+  }
+  #rectleft{
+
+    background-color: rgb(255, 255, 255);
+    z-index: 30;
+    position:fixed;
+      top: 0%;
+      height: 100%;
+      width: 3%;  
+      left: 25%;
+  }
+  #recttop{
+
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    position:fixed;
+      top: 0%;
+      height: 15%;
+      width: 100%;  
+      left: 0;
+  }
+.musictxt h1{
+    position: absolute;
+    top: 19%;
+    left: 42%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1px;
+    z-index: 100;
+
+    text-transform: uppercase;
+}
+
+.dectext{
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  z-index: 15;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(134, 134, 134);
+
+ 
+}
+#one{
+  position: fixed;
+  top: 13%;
+}
+.txt2{
+  position: fixed;
+  top: 83%;
+  left: 15%;
+  padding: 4px;
+
+
+}
+#two{
+  top: 85%;
+  left: 15%;
+
+}
+.decoration{
+
+  position: fixed;
+  top: 27%;
+  left: 10%;
+  width: 1px;
+  height: 490px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  
+}
+a:link{
+  color: black;
+  
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  margin-top: 315%;
+  padding-top: 10%;
+
+  background-color: rgba(47, 112, 196, 0);
+
+}
+.guide{
+  
+  position: fixed;
+  top: 0;
+  left: 8%;
+  font-size: 15px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 10;
+}
+.guide ul{
+    position: relative;
+    padding-left:20px ;
+    padding-right: 10px;
+  
+}
+
+.guide ul li a{
+    color: rgb(117, 117, 117);
+    transition: 1s;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom:10px ;
+    object-fit: cover;
+}
+
+.guide ul li a:hover{
+    transition: 2s;
+    padding-left: 30%;
+    color: rgb(153, 190, 190);
+
+}
+.musicplayer{
+  position: absolute;
+  top: 73%;
+  z-index: 20;
+  left: 42%;
+}
+
+
+.bird{
+  position: absolute;
+  z-index: 5;
+  width: 20%;
+  top: 13%;
+  left: 75%;
+
+}
+.bird2{
+  position: absolute;
+  z-index: 9;
+  width: 20%;
+  top: 70%;
+  left: 60%;
+
+}
+.cir1{
+  position: absolute;
+  width: 16%;
+  height: 30%;
+  z-index: 9;
+  border-radius: 50%;
+  background:radial-gradient( rgba(255, 123, 0, 0.308),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+  top: 59%;
+  left: 66%;
+}
+.cir2{
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  z-index: 9;
+  border-radius: 50%;
+  background:radial-gradient( rgba(253, 138, 30, 0.308),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+  top: 69%;
+  left: 64%;
+}
+.fantasytitle{
+  position: relative;
+  font-size: 200px;
+  margin-top: 2%; 
+}
+.dancingtitle{
+  position: relative;
+  font-size: 200px;
+  margin-top: 2%; 
+}
+.Yetitle{
+  position: relative;
+  font-size: 500px;
+  margin-top: -1%;
+}
+.foresttitle{
+  position: relative;
+  font-size: 350px;
+  margin-top: 0%;  
+}
+.natsutitle{
+  position: relative;
+  font-size: 350px;
+  margin-top: 0%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web{
+
+  color: black;
+
+  
+}
+
+
+.webo{
+  padding: 3px 10px 0px 10px; 
+  font-size: 30px;  
+  position: fixed;
+  text-transform: uppercase;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  right: 0;
+  position: fixed;
+  top: 2%;
+  border-radius: 50px;
+  color:rgb(70, 58, 58);
+  background-color: rgb(243, 243, 243);
+  z-index: 100; 
+ 
+}
+
+.webo:hover{
+  
+  text-decoration: none;
+  background-color: rgba(121, 121, 121, 0.432);
+
+
+}
+
+#c{  
+  
+
+  right: 3% 
+                                                                                              ;
+
+
+}
+
+#b{
+  
+
+  right: 16%;
+}
+
+#a{
+  
+
+
+  right: 25%
+}
+
+
+
+.content{  
+  display:none;
+}
+
+
+
+.loader{
+  height: 100%;
+  width:100% ;
+  overflow: hidden;
+  position: absolute;
+}
+
+.loader>div{
+  height: 50px;
+  width: 50px;
+  border: 15px solid rgba(121, 121, 121, 0.096);
+  border-top-color: rgba(133, 133, 133, 0.363);
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  animation: spin 1.5s infinite linear;
+
+}
+
+@keyframes spin{
+  0%{transform: rotate(360deg)}
+}

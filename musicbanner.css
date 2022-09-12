@@ -1,0 +1,186 @@
+body{
+
+}
+a:link{
+  color: black;
+  
+  text-decoration: none;
+}
+.webo{
+  
+  padding: 3px 10px 0px 10px; 
+    font-size: 30px;  
+    position: fixed;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    right: 0;
+    position: fixed;
+    top: 2%;
+    border-radius: 50px;
+    color:rgb(70, 58, 58);
+    background-color: rgb(243, 243, 243);
+    z-index: 100;    
+}
+
+.webo:hover{
+    
+  text-decoration: none;
+  background-color: rgba(121, 121, 121, 0.432);
+}
+#c{  
+    
+
+  right: 3% 
+                                                                                              ;
+
+
+}
+
+#b{
+  
+
+  right: 16%;
+}
+
+#a{
+  
+
+
+  right: 25%
+}
+
+
+
+.musicname .musicwhole img{
+
+  width: 320px;
+  margin-top: 40%;
+  z-index: 1;
+}
+.musicname .musicwhole a{
+  position: absolute;
+
+
+   margin-top: 120%;
+   left: 107%;
+   font-size: 30px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   padding-left: 3px;
+   padding-right: 3px;
+   text-transform: uppercase;
+   color: rgb(0, 0, 0);
+   z-index: 2;
+
+}
+.musicname .musicwhole a:hover{
+  background-color: rgba(148, 148, 148, 0.445);
+}
+.musicname p{
+  position: relative;
+  left: 108%;
+  margin-top: -7%;
+  z-index: 2;
+
+}
+
+
+.last{
+  position:absolute;
+  top: 10%;
+  right: -0%;
+  font-size: 20px;
+  color: rgba(165, 42, 42, 0);
+ 
+}
+.musicwhole{
+  position: absolute;
+  top: 25%;
+}
+#Natsu{
+  position: absolute;
+  left: 10%;
+
+}
+#Ye{
+  position: absolute;
+  left: 40%;
+}
+#Fantasy{
+  position: absolute;
+  left: 70%;
+ 
+}
+#Fantasy a{
+
+  margin-top: 0%;
+  margin-top: 105%;
+
+}
+#Forest{
+  position: absolute;
+  left: 100%;
+}
+
+#Dancing{
+  position: absolute;
+  left: 130%;
+ 
+
+}
+#Dancing a{
+  margin-top: 95%;
+
+}
+.birdy{
+  position: fixed;
+  top: 3%;
+  width: 30%;
+}
+.dectext{
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: rgb(134, 134, 134);
+
+ 
+}
+#one{
+  position: fixed;
+  top: 15%;
+}
+.txt2{
+  position: fixed;
+  top: 25%;
+  right: 10%;
+  padding: 4px;
+
+
+}
+#two{
+  top: 78%;
+
+}
+.line1{
+
+  position: fixed;
+  top: 35%;
+  left: 10%;
+  width: 1500px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
+.line2{
+
+  position: fixed;
+  top: 75%;
+  right: 10%;
+  width: 1550px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+}
